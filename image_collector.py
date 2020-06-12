@@ -31,7 +31,7 @@ try:
 except:
     pass
 
-n_images_collect=5000
+n_images_collect=2000
 Click, Move,Dummy= [False]*3
 n_Click, n_Move,n_Dummy, n_images= [len(os.listdir(current_dir + '\\' +'Dataset'+'\\'+dataset_type[0]+'\\'+ i))+len(os.listdir(current_dir + '\\' +'Dataset'+'\\'+dataset_type[1]+'\\'+ i)) for i in file_name]+[0]
 
