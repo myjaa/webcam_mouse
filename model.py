@@ -74,6 +74,6 @@ results=model.fit_generator(
     callbacks=[early_stop]
     )
 
-#accuracy= approx 90%
+#accuracy= approx 95%
 
-# model.save('rock_paper_scissor.h5')
+# model.save('mouse.h5')
