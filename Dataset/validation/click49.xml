@@ -1,0 +1,26 @@
+<annotation>
+	<folder>validation</folder>
+	<filename>click49.png</filename>
+	<path>C:\Users\yusuf\Downloads\my projects\Object detection\models\research\object_detection\Dataset\validation\click49.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>310</width>
+		<height>290</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>click</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>73</xmin>
+			<ymin>90</ymin>
+			<xmax>271</xmax>
+			<ymax>281</ymax>
+		</bndbox>
+	</object>
+</annotation>

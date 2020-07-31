@@ -33,7 +33,7 @@ try:
 except:
     pass
 
-n_images_collect = 2000
+n_images_collect = 50
 Click, Move, Dummy = [False] * 3
 n_Click, n_Move, n_Dummy, n_images = [len(
     os.listdir(current_dir + '\\' + 'Dataset' + '\\' + dataset_type[0] + '\\' + i)) + len(
@@ -70,7 +70,8 @@ while True:
     lower = np.array([h_min, s_min, v_min])
     upper = np.array([h_max, s_max, v_max])
     framemask = cv2.inRange(framehsv, lower, upper)
-    frame=cv2.bitwise_and(frame,frame,mask=framemask)
+    '''uncomment to apply the TRACKBAR'''
+    # frame=cv2.bitwise_and(frame,frame,mask=framemask)
 
     frame = cv2.flip(frame, 1)
     cv2.putText(frame, 'Click: ' + str(n_Click), (10, 26), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
