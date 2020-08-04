@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train2</folder>
+	<filename>GettyImages-77937874-9ed4b0b.jpg</filename>
+	<path>C:\Users\yusuf\Downloads\my projects\webcam_mouse\Dataset\train2\GettyImages-77937874-9ed4b0b.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>574</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>move</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>11</xmin>
+			<ymin>26</ymin>
+			<xmax>387</xmax>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>move</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>430</xmin>
+			<ymin>33</ymin>
+			<xmax>768</xmax>
+			<ymax>487</ymax>
+		</bndbox>
+	</object>
+</annotation>

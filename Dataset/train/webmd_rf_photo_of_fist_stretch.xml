@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train2</folder>
+	<filename>webmd_rf_photo_of_fist_stretch.jpg</filename>
+	<path>C:\Users\yusuf\Downloads\my projects\webcam_mouse\Dataset\train2\webmd_rf_photo_of_fist_stretch.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>493</width>
+		<height>335</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>click</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>65</ymin>
+			<xmax>236</xmax>
+			<ymax>315</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>click</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>238</xmin>
+			<ymin>2</ymin>
+			<xmax>493</xmax>
+			<ymax>255</ymax>
+		</bndbox>
+	</object>
+</annotation>

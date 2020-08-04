@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train2</folder>
+	<filename>raised-fist-stretch.jpg</filename>
+	<path>C:\Users\yusuf\Downloads\my projects\webcam_mouse\Dataset\train2\raised-fist-stretch.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1100</width>
+		<height>724</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>click</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>336</xmin>
+			<ymin>19</ymin>
+			<xmax>849</xmax>
+			<ymax>536</ymax>
+		</bndbox>
+	</object>
+</annotation>

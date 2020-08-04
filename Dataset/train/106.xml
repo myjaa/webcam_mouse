@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train2</folder>
+	<filename>106.png</filename>
+	<path>C:\Users\yusuf\Downloads\my projects\webcam_mouse\Dataset\train2\106.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>310</width>
+		<height>290</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>move</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>33</ymin>
+			<xmax>217</xmax>
+			<ymax>290</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,11 +1,12 @@
-"""
-Usage:
-  # From tensorflow/models/
-  # Create train data:
-  python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=train.record
-  # Create test data:
-  python generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=test.record
-"""
+
+# Usage:
+#   # From tensorflow/models/
+#   # Create train data:
+#   python generate_tf_record.py --csv_input=train.csv  --output_path=train.record --image_dir="C:\Users\yusuf\Downloads\my projects\webcam_mouse\Dataset\train"
+#   # Create test data:
+#   python generate_tf_record.py --csv_input=validation.csv  --output_path=validation.record --image_dir="C:\Users\yusuf\Downloads\my projects\webcam_mouse\Dataset\validation"
+
+
 from __future__ import division
 from __future__ import print_function
 from __future__ import absolute_import

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>validation2</folder>
+	<filename>DSC_0147.JPG</filename>
+	<path>C:\Users\yusuf\Downloads\my projects\webcam_mouse\Dataset\validation2\DSC_0147.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4608</width>
+		<height>3072</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>click</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1424</xmin>
+			<ymin>247</ymin>
+			<xmax>3153</xmax>
+			<ymax>2700</ymax>
+		</bndbox>
+	</object>
+</annotation>

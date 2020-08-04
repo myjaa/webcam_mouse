@@ -1,0 +1,26 @@
+<annotation>
+	<folder>validation2</folder>
+	<filename>e846a258dfee1a59fb69b96b6653c11a.png</filename>
+	<path>C:\Users\yusuf\Downloads\my projects\webcam_mouse\Dataset\validation2\e846a258dfee1a59fb69b96b6653c11a.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>569</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>move</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>19</xmin>
+			<ymin>26</ymin>
+			<xmax>476</xmax>
+			<ymax>491</ymax>
+		</bndbox>
+	</object>
+</annotation>

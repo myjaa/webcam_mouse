@@ -29,7 +29,7 @@ def xml_to_csv(path):
 def main():
     catego=['train','validation']
     for i in catego:
-        image_path = os.path.join(os.getcwd(), i)
+        image_path = os.path.join(r"C:\Users\yusuf\Downloads\my projects\webcam_mouse\Dataset", i)
         xml_df = xml_to_csv(image_path)
         xml_df.to_csv(f'{i}.csv', index=None)
         print(f'Successfully converted {i} xml to csv.')
